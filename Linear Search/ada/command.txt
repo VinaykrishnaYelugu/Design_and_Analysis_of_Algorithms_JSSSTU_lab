@@ -1,0 +1,8 @@
+set title 'LINEAR SEARCH'
+set xrange[10:100]
+set yrange[1:100]
+set xlabel 'Input size (n)'
+set ylabel 'Search time (t)'
+set style data linespoints
+plot 'worst.txt' title 'WORST CASE ANALYSIS','best.txt' title 'BEST CASE ANALYSIS','average.txt' title 'AVERAGE CASE ANALYSIS'
+pause -1 'Press any key to continue'

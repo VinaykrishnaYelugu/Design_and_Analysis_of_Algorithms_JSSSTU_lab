@@ -1,0 +1,8 @@
+set title 'Insertion Sort'
+set xrange[0:200]
+set yrange[0:25000]
+set xlabel 'Input Size (n)'
+set ylabel 'Operation Count (count)'
+set style data linespoints
+plot 'best.txt' title 'BA','worst.txt' title 'WA','avg.txt' title 'AA'
+pause -1 'Press any key to continue'

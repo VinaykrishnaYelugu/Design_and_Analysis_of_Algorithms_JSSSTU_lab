@@ -1,0 +1,8 @@
+set title 'GCD Analysis'
+set xrange[0:100]
+set yrange[0:120]
+set xlabel 'm,n'
+set ylabel 'OP count'
+set style data linespoints
+plot 'e_best.txt' title 'Euclid best','e_worst.txt' title 'Euclid worst','c_best.txt' title 'CONSEC CHECK best','c_worst.txt' title 'CONSEC CHECK worst','m_best.txt' title 'MODIFIED EUCLID best','m_worst.txt' title 'MODIFIED EUCLID worst'
+pause -1 'Press any key to continue'

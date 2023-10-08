@@ -1,0 +1,8 @@
+set title 'WARSHAL  ALGo'
+set xrange[0:100]
+set yrange[0:1000000]
+set xlabel 'n'
+set ylabel 'Op count'
+set style data linespoints
+plot 'plot.txt' title 'CS'
+pause -1 'Press any key to contnue'

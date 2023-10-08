@@ -1,0 +1,8 @@
+set title 'STRING MATCHING'
+set xrange[0:1000]
+set yrange[0:300000]
+set xlabel 'm'
+set ylabel 'Operation count'
+set style data linespoints
+plot 'best.txt' title 'BEST','worst.txt' title 'WORST'
+pause -1 'Press any key to continue'

@@ -1,0 +1,8 @@
+set title 'Heap Sort'
+set xrange[0:1000]
+set yrange[0:20000]
+set xlabel 'Input Size (n)'
+set ylabel 'Sort time (t)'
+set style data linespoints
+plot 'HPbest.txt' title 'BEST CASE ANALYSIS','HPworst.txt' title 'WORST CASE ANALYSIS'
+pause -1 'Press any key to continue'

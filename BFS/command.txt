@@ -1,0 +1,8 @@
+set title 'BFS'
+set xrange[0:200]
+set yrange[0:40000]
+set xlabel 'n'
+set ylabel 'Op count'
+set style data linespoints
+plot 'plot.txt' title 'CASE'
+pause -1 'Press any key continue'
